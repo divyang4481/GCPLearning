@@ -1,0 +1,15 @@
+dispatch:  
+
+  # Send all Serviceg goservice traffic to the specific endpoint.
+  #- url: "*/goservice/*"
+  #  service: goservice
+    
+   # Send all Service[nodeservice] traffic to the specific endpoint.
+  - url: "*/nodeservice/"
+    service: nodeservice 
+    
+   # Default service serves simple hostname request.
+  - url: "handy-operation-195819.appspot.com/"
+    service: default
+
+  

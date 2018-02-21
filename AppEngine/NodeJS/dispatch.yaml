@@ -1,0 +1,7 @@
+dispatch:
+ # Default service serves simple hostname request.
+  - url: "sound-observer-179319.appspot.com/"
+    service: default
+  # node  
+  #- url: '*/node'
+  #  service: nodeDemo
